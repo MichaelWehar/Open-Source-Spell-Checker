@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>Open Source Spell Checker</title>
+    <meta name="description" content="This is a free client-side spell checking library written in JavaScript.">
+    <meta name="author" content="Michael Wehar">
+    <meta name="copyright" content="Michael Wehar">
+    <meta name="viewport" id="viewport" content="width=540">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <style>
+      .footer{
+        width: 400px;
+        font-size: 15px;
+        color: #444444;
+      }
+    </style>
+  </head>
+  <body>
+
+    <center>
+      <br><br><br>
+      <h1>Open Source Spell Checker</h1>
+      
+      <br><br>
+      <div class="input-group" style="width: 400px;">
+        <input autofocus="autofocus" style="font-size: 16px" type="text" id="lookupText" onchange="wordTyped()" oninput="wordTyped()" onpaste="wordTyped()" class="form-control" placeholder="Enter a word...">
+      </div>
+      
+      <br><br>
+      <div id="results"></div>
+
+      <br>
+      <div class="footer">
+        <hr>
+        <center>
+          Visit Us @ <a href="https://github.com/MichaelWehar/Open-Source-Spell-Checker">GitHub</a>
+        </center>
+      </div>
+      
+      <br><br>
+    </center>
+    
+    <script src="english_word_list.js"></script>
+    <script src="spellchecker.js"></script>
+    
+    <script charset="UTF-8">
+      set_valid_word_list(english_word_list);
+    </script>
+
+    <script src="ui.js"></script>
+  </body>
+</html>
