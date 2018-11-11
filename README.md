@@ -6,14 +6,14 @@ This is a free client-side spell checking library written in JavaScript.
 - It is **not**... Perfect, Extremely Accurate, Neural Network-based
 
 # How does a Spell Checker work?
-A spell checker must be configured with a valid words list.  Given an input string, the spell checker recommends words from the valid words list.
+A spell checker must be configured with a valid word list.  Given an input string, the spell checker recommends words from the valid word list.
 
 Our spell checker also returns a score between zero and one with each recommended word.  This score is intended to measure the similarity in spelling between the input string and the recommended word.  A higher score means that the input string and the recommended word have a similar spelling while a lower score means that they do not have a similar spelling.
 
 # Getting Started
-**Step 1:** Define your valid words list.  This list should contain all (if possible) of the valid words or strings for your application.
+**Step 1:** Define your valid word list.  This list should contain all (if possible) of the valid words or strings for your application.
 
-In our example, we define a valid words list with 30,000 English language words.  We define our list in a separate file because it is large.  We define our list in a somewhat strange looking way to obtain a performance benefit.
+In our example, we define a valid word list with 30,000 English language words.  We define our list in a separate file because it is large.  We define our list in a somewhat strange looking way to obtain a performance benefit.
 
 **Step 2:** Include the spellchecker.js file in the body of your html document.  To do this, you can add the following line of code: <script src="spellchecker.js"></script>
 
