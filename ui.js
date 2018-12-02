@@ -43,7 +43,7 @@ function displayRecommendation(new_word){
         var code_out = "<p class='lead' style='color: #777777;'>" + dots + "Recommended Words" + dots + "</p><span class='list-group' style='max-width: 250px; display: block; box-shadow: 2px 2px 5px #EEE;'>";
         
         for(var i = 0; i < rList.length && i < max_num_of_items; i++){
-            if(i == 0 && rList[0] == new_word){
+            if(i == 0 && rList[0].toLowerCase() == new_word){
                 code_out += "<a href='#' class='list-group-item list-group-item-success'>"
                          + rList[i] + "</a>";
             }
