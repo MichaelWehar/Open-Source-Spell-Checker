@@ -3,7 +3,15 @@ This is a free client-side spell checking library written in JavaScript.
 
 - It is... Simple, Lightweight, Customizable, Fast, Client-side, Free
 
-- It is **not**... Perfect, Extremely Accurate, Neural Network-based
+- It is **not**... Fully Supported, Perfect, Extremely Accurate, Neural Network-based
+
+# More Details
+
+- You may use this library freely, but it is not adequate for commercial use cases.
+
+- Anyone is welcome to contribute code and make improvements.  Just submit a pull request.
+
+- **Update:** I started working on a commercial spell checker back in November so for the time being, I personally won't be able to contribute code to this repository.  Please still feel welcome to make pull requests and post issues.
 
 # How does a Spell Checker work?
 A spell checker must be configured with a valid word list.  Given an input string, the spell checker recommends words from the valid word list.
