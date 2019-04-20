@@ -13,6 +13,8 @@ This is a free client-side spell checking library written in JavaScript.
 
 - **Update:** I started working on a commercial spell checker back in November so for the time being, I personally won't be able to contribute code to this repository.  Please still feel welcome to make pull requests and post issues.
 
+If you would like to try the commercial spell checker, please feel free to contact me via email: dff72324@gmail.com
+
 # How does a Spell Checker work?
 A spell checker must be configured with a valid word list.  Given an input string, the spell checker recommends words from the valid word list.
 
