@@ -11,9 +11,11 @@ This is a free client-side spell checking library written in JavaScript.
 
 - Anyone is welcome to contribute code and make improvements.  Just submit a pull request.
 
-- **Update:** I started working on a commercial spell checker back in November so for the time being, I personally won't be able to contribute code to this repository.  Please still feel welcome to make pull requests and post issues.
+# Update (May 2019)
 
-If you would like to try the commercial spell checker, please feel free to contact me via email: dff72324@gmail.com
+- I started contributing to a commercial spell checker.  As a result, I will no longer be able to contribute code to this repository.  Please still feel welcome to make pull requests and post issues.
+
+- The commercial spell checker is currently in beta.  If you would like to give it a try, please contact: michael.w@wordreference.com
 
 # How does a Spell Checker work?
 A spell checker must be configured with a valid word list.  Given an input string, the spell checker recommends words from the valid word list.
